@@ -5,3 +5,4 @@ modo=debug
 limite_conexiones=100
 
 experimento_1=activo
+experimento_2=activo
