@@ -1,0 +1,19 @@
+git revert --no-commit <hash_experimento_2>
+git revert --no-commit <hash_experimento_1>
+
+
+
+0179afb (HEAD -> main) Revierte experimentos 1 y 2
+076a4fc Activa experimento 2
+c28bbca Activa experimento 1
+9200a3d Revert "Cambia a modo debug en producción (bug)"
+98056b0 tarea
+9b27819 Ajusta limite de conexiones
+ccc05f0 Cambia a modo debug en producción (bug)
+52a8438 Activa cache por defecto
+2bfa136 Config inicial para producción
+b33cfcb (origin/main, origin/HEAD) add deadline
+0790529 Initial commit
+
+
+pues sirve para tener el historial mas limpio 
