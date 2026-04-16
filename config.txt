@@ -3,4 +3,3 @@ nivel_log=info
 cache=activada
 modo=debug
 limite_conexiones=100
-
