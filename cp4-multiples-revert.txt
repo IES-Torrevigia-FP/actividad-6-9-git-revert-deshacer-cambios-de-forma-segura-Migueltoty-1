@@ -1,0 +1,42 @@
+##Experimentos 2 y 1
+
+git revert --no-commit 076a4fc 
+git revert --no-commit c28bbca
+
+
+##La salida
+
+1186504 (HEAD -> main) Revierte experimentos 1 y 2
+b99aa0f Activa experimento 2
+a786037 Activa experimento 1
+0cc18cb Revert "Sube nivel de log a debug (también bug)"
+5e39338 Sube nivel de log a debug (también bug)
+9b206d1 Reapply "Cambia a modo debug en producción (bug)"
+d827668 Cambia a modo debug en producción (bug)
+706a263 Activa cache por defecto
+1ee6d5d Config inicial para producción
+067dede (origin/main, origin/HEAD) Delete reflexion-6-9.md
+965a807 Delete cp5-conflicto-revert.txt
+276bbe1 Delete cp4-multiples-revert.txt
+59740e6 Delete cp3-revert-head.txt
+817b709 Delete cp2-revert-simple.txt
+3269c2b Delete cp1-historial-inicial-revert.txt
+48b68dd Delete config.txt
+87444db tareas
+cb4f9e1 tarea
+0179afb Revierte experimentos 1 y 2
+076a4fc Activa experimento 2
+c28bbca Activa experimento 1
+9200a3d Revert "Cambia a modo debug en producción (bug)"
+98056b0 tarea
+9b27819 Ajusta limite de conexiones
+ccc05f0 Cambia a modo debug en producción (bug)
+52a8438 Activa cache por defecto
+2bfa136 Config inicial para producción
+b33cfcb add deadline
+0790529 Initial commit
+
+
+##Explicación
+
+Agrupar varios reverts en un solo commit es útil para mantener el historial de Git limpio y legible, especialmente cuando se desea deshacer una funcionalidad completa compuesta por múltiples commits pequeños. Esto evita llenar el registro con mensajes genéricos y facilita la identificación de cambios lógicos en caso de fallos.
