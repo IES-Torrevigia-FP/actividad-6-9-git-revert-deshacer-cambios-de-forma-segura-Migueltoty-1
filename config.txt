@@ -1,2 +1,3 @@
 modo=produccion
 nivel_log=info
+cache=activada
