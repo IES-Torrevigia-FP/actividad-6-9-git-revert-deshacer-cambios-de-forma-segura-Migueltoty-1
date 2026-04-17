@@ -1,0 +1,9 @@
+$ git log --oneline
+abcdef1 Revert "Cambia a modo debug en producción (bug)"
+
+$ cat config.txt
+modo=produccion
+cache=activada
+nivel_log=info
+
+Este método es seguro porque no altera el historial previo, lo cual es ideal para repositorios compartidos o ramas colaborativas.

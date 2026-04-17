@@ -1,0 +1,6 @@
+$ git status
+Unmerged paths:
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        both modified:   config.txt (conflict)
+
+El conflicto se ha resuelto abriendo config.txt, solucionando las líneas conflictivas y luego haciendo git add config.txt y git revert --continue.

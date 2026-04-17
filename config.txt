@@ -1,0 +1,3 @@
+modo=produccion
+nivel_log=info
+limite_conexiones=100

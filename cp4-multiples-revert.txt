@@ -1,0 +1,7 @@
+$ git revert --no-commit hash2
+$ git revert --no-commit hash1
+$ git commit -m "Revierte experimentos 1 y 2 en un solo commit"
+
+$ git log --oneline
+
+Es útil agrupar varios reverts porque mantiene el historial más limpio y mejora la trazabilidad al agrupar los cambios deshechos relacionados.

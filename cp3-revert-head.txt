@@ -1,0 +1,4 @@
+$ git revert head
+$ git log --oneline
+
+La diferencia entre revert head y reset --hard head~1 es que revert crea un nuevo commit para deshacer, permitiendo que el historial compartido no se reescriba. Colaborativamente, esto es vital para evitar problemas a otros desarrolladores.

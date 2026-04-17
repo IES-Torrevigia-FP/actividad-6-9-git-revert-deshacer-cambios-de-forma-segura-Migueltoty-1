@@ -1,0 +1,8 @@
+$ cat config.txt
+modo=debug
+cache=activada
+nivel_log=info
+
+$ git log --oneline
+1234567 Ajusta limite de conexiones
+2345678 Cambia a modo debug en producción (bug)

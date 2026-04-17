@@ -1,0 +1,15 @@
+.github/
+tools/
+README.md
+actividad_6_009.md
+config.txt
+cp1-historial-inicial-revert.txt
+cp2-revert-simple.txt
+cp3-revert-head.txt
+cp4-multiples-revert.txt
+cp5-conflicto-revert.txt
+reflexion-6-9.md
+  workflows/
+    evaluacion.yml
+  ai_redactor.py
+  evaluar_repo.py

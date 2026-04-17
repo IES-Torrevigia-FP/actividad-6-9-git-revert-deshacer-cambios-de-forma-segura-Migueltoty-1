@@ -1,0 +1,522 @@
+{
+  "repo_default_branch": "main",
+  "required_files": [
+    "config.txt",
+    "cp1-historial-inicial-revert.txt",
+    "cp2-revert-simple.txt",
+    "cp3-revert-head.txt",
+    "cp4-multiples-revert.txt",
+    "cp5-conflicto-revert.txt",
+    "reflexion-6-9.md"
+  ],
+  "missing_required": [],
+  "commits": {
+    "count": 39,
+    "items": [
+      {
+        "full": "8489cf67fff907e7bbfb68643d415d2ecce3d36a",
+        "short": "8489cf6",
+        "parents": [
+          "b73c729859f6e708f6c963d9d58cb8b3edb31d79"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:42:48 +0200",
+        "message": "Delete reflexion-6-9.md",
+        "score": 0.7
+      },
+      {
+        "full": "b73c729859f6e708f6c963d9d58cb8b3edb31d79",
+        "short": "b73c729",
+        "parents": [
+          "d7a55ab38fc111be5b19a5d202db9577cc79edbd"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:42:33 +0200",
+        "message": "Delete cp5-conflicto-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "d7a55ab38fc111be5b19a5d202db9577cc79edbd",
+        "short": "d7a55ab",
+        "parents": [
+          "fa5517f18388063a2e0a1a2ba85abf74b64fdcad"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:42:21 +0200",
+        "message": "Delete cp4-multiples-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "fa5517f18388063a2e0a1a2ba85abf74b64fdcad",
+        "short": "fa5517f",
+        "parents": [
+          "f891dfbc653b84dee789517f0c553a77f050d709"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:42:12 +0200",
+        "message": "Delete cp3-revert-head.txt",
+        "score": 0.7
+      },
+      {
+        "full": "f891dfbc653b84dee789517f0c553a77f050d709",
+        "short": "f891dfb",
+        "parents": [
+          "11caba1ad6e81bbe2d390331ef3ec428ba068f43"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:42:01 +0200",
+        "message": "Delete cp2-revert-simple.txt",
+        "score": 0.7
+      },
+      {
+        "full": "11caba1ad6e81bbe2d390331ef3ec428ba068f43",
+        "short": "11caba1",
+        "parents": [
+          "2cfd9e94a1c72066a25a842b428e2625a54a01a9"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:41:49 +0200",
+        "message": "Delete cp1-historial-inicial-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "2cfd9e94a1c72066a25a842b428e2625a54a01a9",
+        "short": "2cfd9e9",
+        "parents": [
+          "1c002661f3ad1f836df62d91cfb85abfabd11704"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 11:41:15 +0200",
+        "message": "Delete config.txt",
+        "score": 0.7
+      },
+      {
+        "full": "1c002661f3ad1f836df62d91cfb85abfabd11704",
+        "short": "1c00266",
+        "parents": [
+          "07b9c46841ad3fec25a779378706d441ca7781dc"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-17 08:40:51 +0200",
+        "message": "Tarea completa",
+        "score": 0.7
+      },
+      {
+        "full": "07b9c46841ad3fec25a779378706d441ca7781dc",
+        "short": "07b9c46",
+        "parents": [
+          "a3d3e432c44baf93050dc7820877901a15380afa"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-17 08:33:44 +0200",
+        "message": "Revert \"generamos un conflicto\"",
+        "score": 1.0
+      },
+      {
+        "full": "a3d3e432c44baf93050dc7820877901a15380afa",
+        "short": "a3d3e43",
+        "parents": [
+          "1186504c7edbd76551aaa974753b3c3332c7a11e"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 10:05:41 +0200",
+        "message": "Añade los archivos de la rama main",
+        "score": 0.7
+      },
+      {
+        "full": "1186504c7edbd76551aaa974753b3c3332c7a11e",
+        "short": "1186504",
+        "parents": [
+          "b99aa0f103a30f1f0414360c66e98c6cb39ee17a"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 10:00:17 +0200",
+        "message": "Revierte experimentos 1 y 2",
+        "score": 0.7
+      },
+      {
+        "full": "b99aa0f103a30f1f0414360c66e98c6cb39ee17a",
+        "short": "b99aa0f",
+        "parents": [
+          "a7860379c7a1454163c822837bb9bcf577221233"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:57:47 +0200",
+        "message": "Activa experimento 2",
+        "score": 0.7
+      },
+      {
+        "full": "a7860379c7a1454163c822837bb9bcf577221233",
+        "short": "a786037",
+        "parents": [
+          "0cc18cb4184141a446a6d14c0580a8e5e1096061"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:57:47 +0200",
+        "message": "Activa experimento 1",
+        "score": 0.7
+      },
+      {
+        "full": "0cc18cb4184141a446a6d14c0580a8e5e1096061",
+        "short": "0cc18cb",
+        "parents": [
+          "5e393388e0957a41dbcfa5bf2cacbbb3eb451dee"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:53:48 +0200",
+        "message": "Revert \"Sube nivel de log a debug (también bug)\"",
+        "score": 1.0
+      },
+      {
+        "full": "5e393388e0957a41dbcfa5bf2cacbbb3eb451dee",
+        "short": "5e39338",
+        "parents": [
+          "9b206d18681d47814b9843500fd5d409ccce15dc"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:53:23 +0200",
+        "message": "Sube nivel de log a debug (también bug)",
+        "score": 0.7
+      },
+      {
+        "full": "9b206d18681d47814b9843500fd5d409ccce15dc",
+        "short": "9b206d1",
+        "parents": [
+          "d827668aa619379aa3128051b3a31e63535bb8a9"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:48:50 +0200",
+        "message": "Reapply \"Cambia a modo debug en producción (bug)\"",
+        "score": 0.7
+      },
+      {
+        "full": "d827668aa619379aa3128051b3a31e63535bb8a9",
+        "short": "d827668",
+        "parents": [
+          "706a26332597d4119ba1e30bf180933d04a8aae9"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:45:46 +0200",
+        "message": "Cambia a modo debug en producción (bug)",
+        "score": 0.7
+      },
+      {
+        "full": "706a26332597d4119ba1e30bf180933d04a8aae9",
+        "short": "706a263",
+        "parents": [
+          "1ee6d5d8ec5919ba5a44a7c62d7b1433fc3ab7ab"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:45:38 +0200",
+        "message": "Activa cache por defecto",
+        "score": 0.7
+      },
+      {
+        "full": "1ee6d5d8ec5919ba5a44a7c62d7b1433fc3ab7ab",
+        "short": "1ee6d5d",
+        "parents": [
+          "067dede9ea9ff981c2d9434b320afca0da0c32f1"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:45:29 +0200",
+        "message": "Config inicial para producción",
+        "score": 0.7
+      },
+      {
+        "full": "067dede9ea9ff981c2d9434b320afca0da0c32f1",
+        "short": "067dede",
+        "parents": [
+          "965a807dba7952db755056fc46c5787bb0805a80"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:07:02 +0200",
+        "message": "Delete reflexion-6-9.md",
+        "score": 0.7
+      },
+      {
+        "full": "965a807dba7952db755056fc46c5787bb0805a80",
+        "short": "965a807",
+        "parents": [
+          "276bbe12ecb78c0e372d8237e54bd71e6bbabd1c"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:06:39 +0200",
+        "message": "Delete cp5-conflicto-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "276bbe12ecb78c0e372d8237e54bd71e6bbabd1c",
+        "short": "276bbe1",
+        "parents": [
+          "59740e6bdd986ea66c92801a4ac1bff8f5a446ad"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:06:20 +0200",
+        "message": "Delete cp4-multiples-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "59740e6bdd986ea66c92801a4ac1bff8f5a446ad",
+        "short": "59740e6",
+        "parents": [
+          "817b70908d910d8068e815f684f6cb143b7dc46d"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:06:02 +0200",
+        "message": "Delete cp3-revert-head.txt",
+        "score": 0.7
+      },
+      {
+        "full": "817b70908d910d8068e815f684f6cb143b7dc46d",
+        "short": "817b709",
+        "parents": [
+          "3269c2bfe90643d0cb531e1a3abbae6d61e0ff13"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:05:51 +0200",
+        "message": "Delete cp2-revert-simple.txt",
+        "score": 0.7
+      },
+      {
+        "full": "3269c2bfe90643d0cb531e1a3abbae6d61e0ff13",
+        "short": "3269c2b",
+        "parents": [
+          "48b68dd623c58ec7d87007cb8007a93ce6f5f6de"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:05:41 +0200",
+        "message": "Delete cp1-historial-inicial-revert.txt",
+        "score": 0.7
+      },
+      {
+        "full": "48b68dd623c58ec7d87007cb8007a93ce6f5f6de",
+        "short": "48b68dd",
+        "parents": [
+          "87444dbb089180c3b838df0ca4f29f26d0d7402c"
+        ],
+        "author": "Migueltoty",
+        "date": "2026-04-17 08:05:25 +0200",
+        "message": "Delete config.txt",
+        "score": 0.7
+      },
+      {
+        "full": "87444dbb089180c3b838df0ca4f29f26d0d7402c",
+        "short": "87444db",
+        "parents": [
+          "cb4f9e184d166d8b6d94d66272a6956578e8a163"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:33:43 +0200",
+        "message": "tareas",
+        "score": 0.3
+      },
+      {
+        "full": "cb4f9e184d166d8b6d94d66272a6956578e8a163",
+        "short": "cb4f9e1",
+        "parents": [
+          "0179afb3ebe71ad481b7ca1b29f914a7577a2e0e"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:16:04 +0200",
+        "message": "tarea",
+        "score": 0.3
+      },
+      {
+        "full": "0179afb3ebe71ad481b7ca1b29f914a7577a2e0e",
+        "short": "0179afb",
+        "parents": [
+          "076a4fca4316cb07833e19c131f65bd59df8e131"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 09:03:20 +0200",
+        "message": "Revierte experimentos 1 y 2",
+        "score": 0.7
+      },
+      {
+        "full": "076a4fca4316cb07833e19c131f65bd59df8e131",
+        "short": "076a4fc",
+        "parents": [
+          "c28bbcabe0ebc663025e0ddf7ea4fb78351b167f"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:44:05 +0200",
+        "message": "Activa experimento 2",
+        "score": 0.7
+      },
+      {
+        "full": "c28bbcabe0ebc663025e0ddf7ea4fb78351b167f",
+        "short": "c28bbca",
+        "parents": [
+          "9200a3db09ba41cc6421566ebb2851e541ac88f6"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:44:05 +0200",
+        "message": "Activa experimento 1",
+        "score": 0.7
+      },
+      {
+        "full": "9200a3db09ba41cc6421566ebb2851e541ac88f6",
+        "short": "9200a3d",
+        "parents": [
+          "98056b096c99a420597a07e76683565c1307a47d"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:38:37 +0200",
+        "message": "Revert \"Cambia a modo debug en producción (bug)\"",
+        "score": 1.0
+      },
+      {
+        "full": "98056b096c99a420597a07e76683565c1307a47d",
+        "short": "98056b0",
+        "parents": [
+          "9b2781987203a649bbbde425e983996dcfa15c8f"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:37:02 +0200",
+        "message": "tarea",
+        "score": 0.3
+      },
+      {
+        "full": "9b2781987203a649bbbde425e983996dcfa15c8f",
+        "short": "9b27819",
+        "parents": [
+          "ccc05f0516a1a92897fe23d99566dd5e01665e54"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:30:42 +0200",
+        "message": "Ajusta limite de conexiones",
+        "score": 0.7
+      },
+      {
+        "full": "ccc05f0516a1a92897fe23d99566dd5e01665e54",
+        "short": "ccc05f0",
+        "parents": [
+          "52a8438e21c0b7b020069a90bab82c2b5bbffc91"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:30:33 +0200",
+        "message": "Cambia a modo debug en producción (bug)",
+        "score": 0.7
+      },
+      {
+        "full": "52a8438e21c0b7b020069a90bab82c2b5bbffc91",
+        "short": "52a8438",
+        "parents": [
+          "2bfa136ee3ef7507e24d9c5acbdb485ad02fa04c"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:30:26 +0200",
+        "message": "Activa cache por defecto",
+        "score": 0.7
+      },
+      {
+        "full": "2bfa136ee3ef7507e24d9c5acbdb485ad02fa04c",
+        "short": "2bfa136",
+        "parents": [
+          "b33cfcb9c521079c61c78e64ca6e2d714c5b34b8"
+        ],
+        "author": "Miguel Hernandez",
+        "date": "2026-04-16 08:30:17 +0200",
+        "message": "Config inicial para producción",
+        "score": 0.7
+      },
+      {
+        "full": "b33cfcb9c521079c61c78e64ca6e2d714c5b34b8",
+        "short": "b33cfcb",
+        "parents": [
+          "0790529f546805ab1c2f657c547670316212bcec"
+        ],
+        "author": "github-classroom[bot]",
+        "date": "2026-04-16 06:27:53 +0000",
+        "message": "add deadline",
+        "score": 1.0
+      },
+      {
+        "full": "0790529f546805ab1c2f657c547670316212bcec",
+        "short": "0790529",
+        "parents": [],
+        "author": "github-classroom[bot]",
+        "date": "2026-04-01 05:48:47 +0000",
+        "message": "Initial commit",
+        "score": 0.7
+      }
+    ],
+    "avg_msg_len": 26.7,
+    "quality": 0.7,
+    "merge_commit_count": 0
+  },
+  "revert_checks": {
+    "cp1_historial_inicial": {
+      "ok": true,
+      "source": "cp1-historial-inicial-revert.txt"
+    },
+    "cp2_revert_simple": {
+      "ok": true,
+      "source": "cp2-revert-simple.txt"
+    },
+    "cp3_revert_head": {
+      "ok": true,
+      "source": "cp3-revert-head.txt"
+    },
+    "cp4_revert_multiple_no_commit": {
+      "ok": true,
+      "source": "cp4-multiples-revert.txt"
+    },
+    "cp5_conflicto_revert": {
+      "ok": true,
+      "source": "cp5-conflicto-revert.txt"
+    },
+    "config_final": {
+      "exists": true,
+      "minimum_content_ok": true
+    }
+  },
+  "readme_stats": {
+    "chars": 401,
+    "words": 31,
+    "headings": 3,
+    "images": 1,
+    "links": 2,
+    "code_fences": 0
+  },
+  "reflexion_stats": {
+    "chars": 1234,
+    "words": 195,
+    "headings": 1,
+    "images": 0,
+    "links": 0,
+    "code_fences": 0
+  },
+  "evidencias_encontradas": [
+    "cp1-historial-inicial-revert.txt",
+    "cp2-revert-simple.txt",
+    "cp3-revert-head.txt",
+    "cp4-multiples-revert.txt",
+    "cp5-conflicto-revert.txt",
+    "reflexion-6-9.md"
+  ],
+  "files_info": {
+    "total_files": 12,
+    "large_files": [],
+    "binary_files": []
+  },
+  "checks_no_puntuables": {
+    "estructura": {
+      "score_referencia": 2,
+      "max_referencia": 2,
+      "estado": "ok"
+    },
+    "min_commits": {
+      "esperado": 6,
+      "detectado": 39,
+      "ok": true
+    }
+  },
+  "scores": {
+    "git_revert (max_4)": 4,
+    "gestion_conflictos (max_3)": 3,
+    "reflexion (max_3)": 3,
+    "total": 10,
+    "sobre": 10
+  }
+}
