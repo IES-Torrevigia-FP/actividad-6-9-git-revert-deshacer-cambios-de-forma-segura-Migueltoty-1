@@ -1,4 +1,4 @@
-modo=inactivo
+modo=produccion
 nivel_log=info
 cache=activada
 modo=debug
