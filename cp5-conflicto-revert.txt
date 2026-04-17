@@ -1,0 +1,16 @@
+##La salida
+
+-revert$ git revert de3f18f
+[main 07b9c46] Revert "generamos un conflicto"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+miguel@miguel-VirtualBox:~/Documentos/dev/actividad-6-9-git-revert$ git status
+En la rama main
+Tu rama está adelantada a 'origin/main' por 11 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+
+##Explicación
+
+No se generó el conflicto
